@@ -1,0 +1,13 @@
+.main-content {
+    margin-top: 60px;
+    margin-left: 220px;
+    margin-right: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    flex: 1;
+    border-radius: 5px;
+  }
+
+  .table-action {
+    text-align: center; /* ทำให้ปุ่ม Action ตรงกลาง */
+  }

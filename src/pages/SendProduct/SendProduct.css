@@ -1,0 +1,150 @@
+.main-content {
+    margin-top: 60px;
+    margin-left: 220px;
+    margin-right: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    flex: 1;
+    border-radius: 5px;
+  }
+  .main-content {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .add-product-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .add-product-container label {
+    font-weight: bold;
+  }
+  
+  .add-product-container input,
+  .add-product-container select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .send-product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .send-product-table th,
+  .send-product-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .send-product-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .add-product-btn,
+  .save-btn,
+  .cancel-btn,
+  .edit-btn,
+  .delete-btn,
+  .submit-btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-product-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .add-product-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .edit-btn {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #117a8b;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .save-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .save-btn:hover {
+    background-color: #218838;
+  }
+  
+  .cancel-btn {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #e0a800;
+  }
+  
+  .submit-btn {
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .submit-btn:hover {
+    background-color: #218838;
+  }
+  
+  .submit-container {
+    text-align: right;
+  }
+
+  .submit-button {
+    padding: 12px 24px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:disabled {
+    background-color: #b0bec5;
+    cursor: not-allowed;
+  }
+  
+  .submit-button:hover:not(:disabled) {
+    background-color: #45a049;
+  }
+  

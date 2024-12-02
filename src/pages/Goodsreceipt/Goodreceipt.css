@@ -1,0 +1,72 @@
+.main-content {
+  margin-top: 60px;
+  margin-left: 220px;
+  margin-right: 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  flex: 1;
+  border-radius: 8px;
+}
+
+.paper-container {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.header-container {
+  background-color: #1976d2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+.table-head {
+  background-color: #f5f5f5;
+}
+
+.table-head th {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.table-body td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.table-row:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+.table-row:nth-of-type(even) {
+  background-color: #ffffff;
+}
+
+.dialog-title {
+  background-color: #1976d2;
+  color: white;
+  font-weight: bold;
+}
+
+.dialog-content {
+  margin-top: 20px;
+}
+
+.dialog-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.dialog-actions button {
+  padding: 10px 20px;
+}

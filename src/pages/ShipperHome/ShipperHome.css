@@ -1,0 +1,175 @@
+.main-content {
+    margin-top: 60px;
+    margin-left: 220px;
+    margin-right: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    flex: 1;
+    border-radius: 5px;
+  }
+
+.shipper-home {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.shipper-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.shipper-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.shipper-add-product-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.shipper-add-product-button:hover {
+  background-color: #0056b3;
+}
+
+.project-dropdown {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.project-dropdown label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.project-select {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  width: 250px;
+}
+
+.shipper-table-container {
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.shipper-order-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.shipper-order-table th {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.shipper-order-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.no-orders-message {
+  font-size: 14px;
+  color: #999;
+}
+
+.shipper-submit-container {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.shipper-submit-button {
+  padding: 10px 20px;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: not-allowed;
+  font-size: 14px;
+}
+
+.empty-state {
+    margin-top: 50px;
+    text-align: center;
+    color: #999;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .no-orders-message {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #999;
+    padding: 20px 0;
+  }
+
+  .submit-container {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #1976d2 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+  }
+  
+  .submit-button:disabled {
+    background-color: #b0bec5;
+    cursor: not-allowed;
+  }
+  
+  .submit-button:hover:not(:disabled) {
+    background-color: #125ea4;
+  }
+
+  .status-badge {
+    padding: 5px 20px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .status-badge.waiting {
+    background-color: orange;
+  }
+  
+  .status-badge.approved {
+    background-color: green;
+  }
+  
+  .status-badge.rejected {
+    background-color: red;
+  }
